@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+}
+
+body {
+  font-family: verdana;
+}
+
+header {
+  background-image: url("images.jpg");
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 4px 3px 0px #7A7A7A;
+}
+
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+nav {
+  
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-image: url("ferramentas.jpg");
+  padding: 20px;
+ color: white;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+
+
+article {
+   
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:#FFF5EE;
+  padding: 10px;
+  color:black;
+}
+
+footer {
+  font-size: 10px;
+  background-color:#708090;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+		
+table, th, td { 
+	border: 1px solid pink;
+	border-collapse: collapse; 
+	font-size: 14px;
+} 
+th, td { 
+	padding: 10px; 
+	font-size: 11px;
+} 
+
+		
+
