@@ -1,1 +1,1 @@
-print("hello world!devops")
+print("hello world!")
